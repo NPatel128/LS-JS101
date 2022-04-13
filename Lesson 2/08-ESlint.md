@@ -1,0 +1,23 @@
+# ESlint
+- Install the 3 packages. 
+  - It is not reccomended to install globally by the developers.
+  - Currently newer version are causing issues.
+  - ``` npm install eslint@7.12.1 eslint-cli babel-eslint --save-dev ```
+  - ``` npx eslint -v ``` This will check version of ESlint
+- Using eslint command
+  - ``` npx eslint test.js ```
+- Configuring ESLint
+  - .eslintrc.yml is the name of the config file.
+  - ESLint will look for this file in the current dir or the closest dir (not in your home dir)
+  - Either put 1 copy in the top level projects dir or in each individual project dir. 
+  - LS will provide the config file and expected to use it. 
+- How to use example
+  - create a new file "hello.js"
+  - ```javascript console.log(helloWorld)```
+  - Run ESLint on this file
+  - ``` npx eslint hello.js ```
+  - Output of command
+    - The first non blank line will tell you the file path
+    - The next two lines show the errors that ESLint found.
+    - The last two lines report stats 
+- Can be integrated with your editor. 
