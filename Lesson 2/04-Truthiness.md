@@ -1,0 +1,22 @@
+# Truthiness
+- AND (&&)
+  - Only true if both sides are true
+  - Goes left to right unless there are ()
+  - Will short circuit to false if anything evaluates to false
+- OR (||)
+  - Only false if both sides are false
+  - Short circuites to true if anything comes back as true.
+- Short Circuits
+  - After an expression short circuts it will stop looking at the code for the rest of the expression.
+  - JS knows that since the expression has a short in it that it has to evaluate to true or false no matter what
+    - For AND it is false if anything eval to false since AND has to be true on both sides to be true.
+    - For OR is is true if anything eval to true since OR has to be false on both sides to be false.
+- Truthiness
+  - Everything but these 6 things are true:
+    - False
+    - Undefined
+    - Null
+    - 0
+    - "" (Empty String)
+    - NaN (Not a number)
+  - ALL FALSE - MEMORIZE!
