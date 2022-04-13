@@ -1,0 +1,11 @@
+# 07-Flow Charts
+- Flow Charts help us map out the logical sequence of a possible solution. 
+- Shapes of a flowchart:
+  - Oval - Start / Stop
+  - Rectangle - Processing Stop
+  - Parallelogram - Input / Output
+  - Diamond - Decision 
+  - Circle - Connector
+- A diamond (decision) can not have more than 2 branches. 
+  - If you need more than 2 branches then have seperate diamonds.
+- Imperative / Procedural - Step by step logic. 
